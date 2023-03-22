@@ -1,0 +1,171 @@
+.Counter {
+  width: 100vw;
+  height: 100vh;
+  background: url(..//images/counterbg1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.Counter .img {
+  position: absolute;
+  left: 2%;
+  z-index: 2;
+}
+.Counter .counterbg {
+  width: 60%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.Counter .counterbgblue {
+  background-color: #300e57;
+  width: 100%;
+  height: 100%;
+  transform: skew(-20deg);
+}
+.Counter .countercontent {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.countercontent h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.counterccount {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.countercontent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  text-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.countercontent div {
+  margin: 0.5rem;
+  font-size: 48px;
+}
+.countercontent div p {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+.countercontent div span {
+  width: 10%;
+  padding: 1rem;
+  background: #b48fdd;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+  .countercontent div {
+    margin: 0.5rem;
+    font-size: 36px;
+  }
+  .countercontent div span {
+    padding: 0.5rem;
+  }
+  .countercontent div p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.5rem;
+  }
+  .countercontent {
+    gap: 1rem;
+    scale: 0.9;
+    margin-left: 1rem;
+  }
+  .Counter .img {
+    width: 200px;
+    left: -2%;
+    z-index: 2;
+  }
+  .Counter {
+    width: 100vw;
+    height: 250px;
+    background-size: cover;
+    overflow: hidden;
+    margin: 5rem 0;
+  }
+  .Counter .img img {
+    width: 100%;
+  }
+  .countercontent h1,
+  .counterbg div {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
+  }
+  .Counter .counterbg {
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .countercontent div {
+    margin: 0.5rem;
+    font-size: 36px;
+  }
+  .countercontent div span {
+    padding: 0.5rem;
+  }
+  .countercontent div p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.5rem;
+  }
+  .Counter .img {
+    width: 450px;
+    left: -2%;
+    z-index: 2;
+  }
+  .Counter {
+    overflow: hidden;
+    width: 100vw;
+    height: 550px;
+    background-size: cover;
+  }
+  .Counter .img img {
+    width: 100%;
+  }
+  .countercontent {
+    margin-left: 1rem;
+  }
+  .countercontent h1 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
+  }
+  .Counter .counterbg {
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+}

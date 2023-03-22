@@ -1,0 +1,366 @@
+.EventCardR {
+  text-transform: uppercase;
+
+  margin-top: 10rem;
+  position: relative;
+  width: 100vw;
+  height: 250px;
+  background-color: transparent;
+  display: block;
+}
+.EventCardR_yellow {
+  position: absolute;
+  transform: skew(45deg);
+  width: min(70rem, 90%);
+  height: 151px;
+  background: linear-gradient(
+    270.05deg,
+    #fdc32d 26.51%,
+    rgba(253, 195, 45, 0) 73.22%
+  );
+  z-index: 2;
+  left: 10%;
+}
+.EventCardR_blue {
+  position: absolute;
+  transform: skew(45deg);
+  width: 870px;
+  height: 129px;
+  background: #300e57;
+  top: 25%;
+  right: -5%;
+}
+.EventCardR h2 {
+  text-transform: uppercase;
+
+  position: absolute;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 150px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  right: 26%;
+  top: -8%;
+  z-index: 3;
+  filter: blur(1px);
+}
+.EventCardR h4 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.18em;
+  color: #fff;
+  text-shadow: 4px 4px 4px #000;
+  top: 28%;
+  right: 45%;
+  z-index: 5;
+}
+.EventCardR img[alt="hawkrace"] {
+  position: absolute;
+  z-index: 6;
+  top: -60%;
+  right: 8%;
+}
+
+.EventCardR img[alt="whitetri"] {
+  position: absolute;
+  z-index: 7;
+  top: -20%;
+  right: 8%;
+}
+
+.EventCardR img[alt="whitedottri"] {
+  position: absolute;
+  z-index: 5;
+  top: 60%;
+  right: 20%;
+}
+.EventCardR img[alt="yellowdottri"] {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  right: 5%;
+}
+
+.EventCardR img[alt="yellowtri"] {
+  position: absolute;
+  z-index: 4;
+  top: -10%;
+  right: 18%;
+}
+
+.EventCardR img[alt="pinkdottri"] {
+  position: absolute;
+  z-index: 4;
+  top: -10%;
+  right: 10%;
+}
+.EventCardR img[alt="pinktri"] {
+  position: absolute;
+  z-index: 4;
+  top: 20%;
+  right: 10%;
+}
+
+.EventCardR img[alt="yellowsmalltri"] {
+  position: absolute;
+  z-index: 4;
+  top: 35%;
+  right: 8%;
+}
+
+.EventCardR img[alt="whitesmalltri"] {
+  position: absolute;
+  z-index: 4;
+  top: 118%;
+  right: 18%;
+}
+
+.EventCardR .btn {
+  position: absolute;
+  transform: skew(45deg);
+  width: 300px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  right: 65%;
+}
+.EventCardR .Registor {
+  position: absolute;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* font-variant: all-small-caps; */
+
+  color: #ffffff;
+  width: 300px;
+  height: 40px;
+  top: 63%;
+  right: 65%;
+}
+
+.EventCardR .btn-slide1 {
+  position: absolute;
+  transform: skew(45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  right: 62%;
+}
+
+.EventCardR .btn-slide2 {
+  position: absolute;
+  transform: skew(45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  right: 86%;
+}
+
+.EventCardR .btn-slide3 {
+  position: absolute;
+  transform: skew(45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  right: 88%;
+}
+@media only screen and (max-width: 600px) {
+  .EventCardR {
+    margin-top: 8rem;
+    width: 100vw;
+    height: 75px;
+  }
+  .EventCardR img[alt="hawkrace"] {
+    width: 180px;
+    top: -80%;
+    right: -2%;
+  }
+
+  .EventCardR h2 {
+    position: absolute;
+    font-size: 28px;
+    line-height: 150px;
+    -webkit-text-stroke: 1px #fff;
+    right: 25%;
+    top: -70%;
+    z-index: 3;
+  }
+  .EventCardR h4 {
+    font-weight: 800;
+    font-size: 16px;
+    top: -2%;
+    right: 50%;
+    z-index: 5;
+  }
+  .EventCardR_yellow {
+    width: min(70rem, 80%);
+    height: 50px;
+    background: linear-gradient(
+      270.05deg,
+      #fdc32d 26.51%,
+      rgba(253, 195, 45, 0) 73.22%
+    );
+    z-index: 2;
+    right: 20%;
+  }
+  .EventCardR_blue {
+    transform: skew(-45deg);
+    width: 60%;
+    height: 50px;
+    background: #300e57;
+    top: 15%;
+    right: -5%;
+  }
+  .EventCardR img[alt="hawkrace"] {
+    display: block;
+  }
+  .EventCardR img {
+    display: none;
+  }
+  .EventCardR .btn {
+    width: 140px;
+    height: 24px;
+    top: 68%;
+    right: 55%;
+  }
+  .EventCardR .Registor {
+    font-size: 12px;
+    line-height: 0px;
+    width: 300px;
+    height: 40px;
+    top: 85%;
+    right: 35%;
+    z-index: 8;
+  }
+
+  .EventCardR .btn-slide1 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    right: 50%;
+  }
+
+  .EventCardR .btn-slide2 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    right: 92%;
+  }
+
+  .EventCardR .btn-slide3 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    right: 96%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .EventCardR {
+    width: 100vw;
+    height: 90px;
+  }
+  .EventCardR img[alt="hawkrace"] {
+    width: 200px;
+    top: -70%;
+    right: 10%;
+  }
+
+  .EventCardR h2 {
+    position: absolute;
+    font-size: 40px;
+    line-height: 0px;
+    -webkit-text-stroke: 1px #fff;
+    right: 32%;
+    top: 24%;
+    z-index: 3;
+  }
+  .EventCardR h4 {
+    font-weight: 800;
+    font-size: 20px;
+    top: 0%;
+    right: 44%;
+    z-index: 5;
+  }
+  .EventCardR_yellow {
+    width: min(70rem, 80%);
+    height: 75px;
+    background: linear-gradient(
+      270.05deg,
+      #fdc32d 26.51%,
+      rgba(253, 195, 45, 0) 73.22%
+    );
+    z-index: 2;
+    right: 20%;
+  }
+  .EventCardR_blue {
+    transform: skew(-45deg);
+    width: 60%;
+    height: 75px;
+    background: #300e57;
+    top: 35%;
+    right: -25%;
+  }
+  .EventCardR img[alt="hawkrace"] {
+    display: block;
+  }
+  .EventCardR img {
+    display: none;
+  }
+  .EventCardR .btn {
+    width: 200px;
+    height: 36px;
+    top: 68%;
+    right: 58%;
+  }
+  .EventCardR .Registor {
+    font-size: 16px;
+    line-height: 0px;
+    width: 300px;
+    height: 40px;
+    top: 88%;
+    right: 54%;
+    z-index: 8;
+  }
+
+  .EventCardR .btn-slide1 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    right: 56%;
+  }
+
+  .EventCardR .btn-slide2 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    right: 83%;
+  }
+
+  .EventCardR .btn-slide3 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    right: 87%;
+  }
+}

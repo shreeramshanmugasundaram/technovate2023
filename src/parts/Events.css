@@ -1,0 +1,17 @@
+.Events {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+.Events .Heading {
+  width: 100vw;
+  margin-top: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .Events .Heading img {
+    width: 100%;
+  }
+  .Event_gap {
+    margin-top: 1rem;
+  }
+}

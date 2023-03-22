@@ -1,0 +1,27 @@
+.About {
+  width: min(70rem, 100%);
+  margin: auto auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.About img {
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .About {
+    height: 200px;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .About {
+    height: 500px;
+    margin-bottom: 0rem;
+  }
+}

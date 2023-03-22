@@ -1,0 +1,11 @@
+.Sponsors {
+  width: 100vw;
+  height: 100vh;
+}
+.Sponsors .heading {
+  width: 100vw;
+}
+.Sponsors .heading img {
+  margin-top: 4rem;
+  width: 100%;
+}

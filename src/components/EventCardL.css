@@ -1,0 +1,363 @@
+.EventCardL {
+  text-transform: uppercase;
+
+  margin-top: 10rem;
+  position: relative;
+  width: 100vw;
+  height: 250px;
+  background-color: transparent;
+  display: block;
+}
+.EventCardL_yellow {
+  position: absolute;
+  transform: skew(-45deg);
+  width: min(70rem, 90%);
+  height: 151px;
+  background: linear-gradient(
+    90.05deg,
+    #fdc32d 26.51%,
+    rgba(253, 195, 45, 0) 73.22%
+  );
+  z-index: 2;
+  left: 20%;
+}
+.EventCardL_blue {
+  position: absolute;
+  transform: skew(-45deg);
+  width: 870px;
+  height: 129px;
+  background: #300e57;
+  top: 25%;
+  left: -5%;
+}
+.EventCardL h2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 150px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  left: 26%;
+  top: -8%;
+  z-index: 3;
+  filter: blur(1px);
+}
+.EventCardL h4 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.18em;
+  color: #fff;
+  text-shadow: 4px 4px 4px #000;
+  top: 28%;
+  left: 50%;
+  z-index: 5;
+}
+.EventCardL img[alt="hawkrace"] {
+  position: absolute;
+  z-index: 6;
+  top: -60%;
+  left: 8%;
+}
+.EventCardL img[alt="whitetri"] {
+  position: absolute;
+  z-index: 7;
+  top: -20%;
+  left: 8%;
+}
+
+.EventCardL img[alt="whitedottri"] {
+  position: absolute;
+  z-index: 5;
+  top: 60%;
+  left: 20%;
+}
+.EventCardL img[alt="yellowdottri"] {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 5%;
+}
+
+.EventCardL img[alt="yellowtri"] {
+  position: absolute;
+  z-index: 4;
+  top: -10%;
+  left: 18%;
+}
+
+.EventCardL img[alt="pinkdottri"] {
+  position: absolute;
+  z-index: 4;
+  top: -10%;
+  left: 10%;
+}
+.EventCardL img[alt="pinktri"] {
+  position: absolute;
+  z-index: 4;
+  top: 20%;
+  left: 10%;
+}
+
+.EventCardL img[alt="yellowsmalltri"] {
+  position: absolute;
+  z-index: 4;
+  top: 35%;
+  left: 8%;
+}
+
+.EventCardL img[alt="whitesmalltri"] {
+  position: absolute;
+  z-index: 4;
+  top: 118%;
+  left: 18%;
+}
+
+.EventCardL .btn {
+  position: absolute;
+  transform: skew(-45deg);
+  width: 300px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  left: 65%;
+}
+.EventCardL .Registor {
+  position: absolute;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* font-variant: all-small-caps; */
+
+  color: #ffffff;
+  width: 300px;
+  height: 40px;
+  top: 63%;
+  left: 65%;
+}
+
+.EventCardL .btn-slide1 {
+  position: absolute;
+  transform: skew(-45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  left: 62%;
+}
+
+.EventCardL .btn-slide2 {
+  position: absolute;
+  transform: skew(-45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  left: 86%;
+}
+
+.EventCardL .btn-slide3 {
+  position: absolute;
+  transform: skew(-45deg);
+  width: 10px;
+  height: 40px;
+  background: #ff037d;
+  top: 60%;
+  left: 88%;
+}
+@media only screen and (max-width: 600px) {
+  .EventCardL {
+    margin-top: 6rem;
+    width: 100vw;
+    height: 75px;
+  }
+  .EventCardL img[alt="hawkrace"] {
+    width: 180px;
+    top: -50%;
+    left: -2%;
+  }
+
+  .EventCardL h2 {
+    position: absolute;
+    font-size: 24px;
+    line-height: 150px;
+    -webkit-text-stroke: 1px #fff;
+    left: 35%;
+    top: -70%;
+    z-index: 3;
+  }
+  .EventCardL h4 {
+    font-weight: 800;
+    font-size: 16px;
+    top: -2%;
+    left: 60%;
+    z-index: 5;
+  }
+  .EventCardL_yellow {
+    width: min(70rem, 80%);
+    height: 50px;
+    background: linear-gradient(
+      90.05deg,
+      #fdc32d 26.51%,
+      rgba(253, 195, 45, 0) 73.22%
+    );
+    z-index: 2;
+    left: 20%;
+  }
+  .EventCardL_blue {
+    transform: skew(-45deg);
+    width: 60%;
+    height: 50px;
+    background: #300e57;
+    top: 15%;
+    left: -5%;
+  }
+  .EventCardL img[alt="hawkrace"] {
+    display: block;
+  }
+  .EventCardL img {
+    display: none;
+  }
+  .EventCardL .btn {
+    width: 140px;
+    height: 24px;
+    top: 68%;
+    left: 55%;
+  }
+  .EventCardL .Registor {
+    font-size: 12px;
+    line-height: 0px;
+    width: 300px;
+    height: 40px;
+    top: 85%;
+    left: 35%;
+    z-index: 8;
+  }
+
+  .EventCardL .btn-slide1 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    left: 50%;
+  }
+
+  .EventCardL .btn-slide2 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    left: 92%;
+  }
+
+  .EventCardL .btn-slide3 {
+    position: absolute;
+    transform: skew(-45deg);
+    width: 10px;
+    height: 24px;
+    background: #ff037d;
+    top: 68%;
+    left: 96%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .EventCardL {
+    width: 100vw;
+    height: 90px;
+  }
+  .EventCardL img[alt="hawkrace"] {
+    width: 200px;
+    top: -50%;
+    left: 10%;
+  }
+
+  .EventCardL h2 {
+    position: absolute;
+    font-size: 40px;
+    line-height: 0px;
+    -webkit-text-stroke: 1px #fff;
+    left: 32%;
+    top: 24%;
+    z-index: 3;
+  }
+  .EventCardL h4 {
+    font-weight: 800;
+    font-size: 20px;
+    top: 0%;
+    left: 44%;
+    z-index: 5;
+  }
+  .EventCardL_yellow {
+    width: min(70rem, 80%);
+    height: 75px;
+    background: linear-gradient(
+      90.05deg,
+      #fdc32d 26.51%,
+      rgba(253, 195, 45, 0) 73.22%
+    );
+    z-index: 2;
+    left: 20%;
+  }
+  .EventCardL_blue {
+    transform: skew(-45deg);
+    width: 60%;
+    height: 75px;
+    background: #300e57;
+    top: 35%;
+    left: -5%;
+  }
+  .EventCardL img[alt="hawkrace"] {
+    display: block;
+  }
+  .EventCardL img {
+    display: none;
+  }
+  .EventCardL .btn {
+    width: 200px;
+    height: 36px;
+    top: 68%;
+    left: 58%;
+  }
+  .EventCardL .Registor {
+    font-size: 16px;
+    line-height: 0px;
+    width: 300px;
+    height: 40px;
+    top: 88%;
+    left: 54%;
+    z-index: 8;
+  }
+
+  .EventCardL .btn-slide1 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    left: 56%;
+  }
+
+  .EventCardL .btn-slide2 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    left: 83%;
+  }
+
+  .EventCardL .btn-slide3 {
+    width: 10px;
+    height: 36px;
+    top: 68%;
+    left: 87%;
+  }
+}
